@@ -1,4 +1,81 @@
 body {
   width:auto;
-  font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;;
+  background: #E3277B;
+  font-family:"Bookman Old Style";
+  
 }
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float:left;
+  font-size:36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding:33px 20px;
+}
+
+.main {
+  padding:100px 80px;
+}
+
+.top h1 {
+  font-family:"Bookman Old Style";
+  /*why do some font families work, and others don't? I think it is because fonts need to be loaded in the browser*/
+  /*why do some p tags appear immediately below the h1 and others don't? */
+  font-size:43px;
+  margin:0;
+  color:#AFAFAF;
+}
+
+.top p {
+  margin:0;
+  background-color: aquamarine;  
+}
+
+.top ul {
+  margin:-19px;
+}
+
+.top li {
+  float:right;
+  background-color:pink;
+  color: #000000;
+  padding-left:50px;
+  padding-right:75px;
+}
+
+img {
+  padding:0px 80px;
+  border-radius:50%;
+}
+
+.footer {
+  background-color:#AFAFAF;
+  height: 60px;
+  padding:40px;
+}
+
+.footer-logo {
+  float:left;
+  font-size:16px;
+}
+
+.footer-list {
+  float:right;
+}
+
+/*.footer-list li {
+  padding-bottom: 5px;
+}*/
