@@ -1,13 +1,13 @@
 body {
   width:auto;
-  background: #E3277B;
+  background: #ffffff;
   font-family:"Bookman Old Style";
-  
+  margin:100px;
 }
 
 li {
   list-style: none;
-  text
+  
 }
 
 
@@ -29,11 +29,12 @@ a:hover, a:active {
 }
 
 
-
-.header {
+/*CSS for header- omit?*/
+/*.header {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  margin:100px;
 }
 
 .header-logo {
@@ -46,7 +47,7 @@ a:hover, a:active {
   float: left;
   padding:33px 20px;
 }
-
+*/
 .main {
   padding:100px 80px;
 }
@@ -57,23 +58,24 @@ a:hover, a:active {
   /*why do some p tags appear immediately below the h1 and others don't? */
   font-size:43px;
   margin:0;
-  color:#AFAFAF;
+  color:#E3277B;
 }
 
 .top p {
   margin:0;
-  background-color: aquamarine;  
+  background-color: #AFAFAF;  
 }
 
 .top ul {
-  margin:-19px;
+  margin:0px;
 }
 
 .top li {
   float:right;
-  background-color:pink;
+  background-color:#AFAFAF;
   color: #000000;
-  margin-right:75px;
+  padding-right:75px;
+  margin:0;
 }
 
 img {
@@ -108,12 +110,14 @@ img {
   font-size: 12px;
   padding:42px;
   border:1px solid #000000;
+  background-color:#E3277B;
 }
 
 .footer {
   background-color:#AFAFAF;
   height: 60px;
   padding:40px;
+  margin:100px;
 }
 
 .footer-logo {
@@ -123,7 +127,6 @@ img {
 
 .footer-list {
   float:right;
-  margin-top:-19px;
 }
 
 /*.footer-list li {
