@@ -9,3 +9,7 @@ I have conveniently forgotten the steps for the git terminal :/
 
 Save, Add, Commit, Push, Check GitHub
 
+I can see how a wireframe would be helpful to name all the different divs on the page
+
+Don't know why CSS works for one section and not for another
+
