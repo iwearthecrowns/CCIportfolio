@@ -14,7 +14,7 @@ li {
 a:link , a:visited {
   background-color: #fe017d;
   color: white;
-  /*make it a button -->padding: 14px 25px;*/
+  padding: 14px 25px;
   text-align: center; 
   text-decoration: none;
   display: inline-block;
@@ -50,6 +50,9 @@ a:hover, a:active {
 */
 .main {
   padding:100px 80px;
+  /*position:fixed;
+  top:0;
+  z-index: 10;*/
 }
 
 .top h1 {
@@ -63,7 +66,7 @@ a:hover, a:active {
 
 .top p {
   margin:0;
-  background-color: #AFAFAF;  
+  background-color: #ffffff;
 }
 
 .top ul {
@@ -72,15 +75,10 @@ a:hover, a:active {
 
 .top li {
   float:right;
-  background-color:#AFAFAF;
+  background-color:#ffffff;
   color: #000000;
   padding-right:75px;
   margin:0;
-}
-
-img {
-  padding:0px 80px;
-  border-radius:50%;
 }
 
 .contents {
@@ -89,6 +87,11 @@ img {
 
 .contents-item {
   float:left;
+}
+
+.contents-item img {
+  padding:0px 80px;
+  border-radius:50%;
 }
 
 .contents-item h1 {
@@ -112,6 +115,31 @@ img {
   border:1px solid #000000;
   background-color:#E3277B;
 }
+
+.projects {
+  height:350px;
+  background-color:#E3277B;
+}
+
+.projects-item {
+  float:left;
+}
+
+.projects-item img {
+  padding:40px 80px;
+}
+
+.projects-item li{
+  float:left;
+  
+}
+
+.skills {
+  height:100px;
+  background-color:#b5b5b5;
+}
+
+
 
 .footer {
   background-color:#AFAFAF;
