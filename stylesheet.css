@@ -10,7 +10,6 @@ li {
   
 }
 
-
 a:link , a:visited {
   background-color: #fe017d;
   color: white;
@@ -118,7 +117,7 @@ a:hover, a:active {
 
 .projects {
   height:350px;
-  background-color:#E3277B;
+  border:1px solid #E3277B;
 }
 
 .projects-item {
@@ -140,8 +139,9 @@ a:hover, a:active {
 }
 
 .skills {
-  height:100px;
+  height:200px;
   background-color:#b5b5b5;
+  border:1px solid #E3277B;
 }
 
 
