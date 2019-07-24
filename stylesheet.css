@@ -66,6 +66,7 @@ a:hover, a:active {
 .top p {
   margin:0;
   background-color: #ffffff;
+  font-size: 22px;
 }
 
 .top ul {
