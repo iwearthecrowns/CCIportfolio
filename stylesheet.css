@@ -5,13 +5,13 @@ body {
   margin:100px;
   color:#FF33C7;
 }
-
+/*smartphone color- orange*/
 @media (max-width:670px) {
   h1 {
     color:#FF5733;
   }
 }
-
+/*tablet color- blue, desktop color- hot pink*/
 @media (max-width:1000px) {
   h1 {
     color:#3382FF;
