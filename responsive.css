@@ -1,0 +1,12 @@
+/* For Smartphones */
+@media (max-width: 670px) {
+    ..main {
+      width: 100%;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    
+    
+    
