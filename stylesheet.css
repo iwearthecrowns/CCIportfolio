@@ -3,6 +3,19 @@ body {
   background: #ffffff;
   font-family:"Bookman Old Style";
   margin:100px;
+  color:#FF33C7;
+}
+
+@media (max-width:670px) {
+  h1 {
+    color:#FF5733;
+  }
+}
+
+@media (max-width:1000px) {
+  h1 {
+    color:#3382FF;
+  }
 }
 
 li {
