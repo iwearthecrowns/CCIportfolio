@@ -8,5 +8,8 @@
       text-align: center;
     }
     
-    
-    
+    h1 {
+        color:darkorange;
+        font-size:24px;
+    }
+}
