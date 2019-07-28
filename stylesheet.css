@@ -17,12 +17,12 @@ body {
     color:#FF5733;
   }
 }
-/*tablet color- blue, desktop color- hot pink*/
+/*tablet color- blue, desktop color- hot pink
 @media (max-width:1000px) {
   h1 {
     color:#3382FF;
   }
-}
+}*/
 
 li {
   list-style: none;
