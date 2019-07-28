@@ -5,6 +5,12 @@ body {
   margin:100px;
   color:#FF33C7;
 }
+
+/*Apply box-sizing:border-box; to all elements*/
+* {
+  box-sixing:border-box;
+}
+
 /*smartphone color- orange*/
 @media (max-width:670px) {
   h1 {
