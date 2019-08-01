@@ -108,6 +108,15 @@ a:hover, a:active {
   float:left;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
+  
+}
+
 .contents-item img {
   padding:0px 80px;
   border-radius:50%;
